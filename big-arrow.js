@@ -15,3 +15,19 @@ console.log('5times:', output);
 const tenTimes = (num) => num*10;
 const value10 = tenTimes(22);
 console.log('tentimes:', value10);
+// parameter less arrow funtion 5
+const getName = () => 'mrle cocpit';
+const name = getName()
+console.log(name);
+// multyline operations big arrow 6
+const doMath = (x, y) => {
+    const sum = x+y;
+    const diff = x-y;
+    const result = sum * diff;
+    const out = result * 5;
+    return out;
+}
+const total = doMath(3, 2);
+console.log(total);
+const total1 = doMath(31, 22);
+console.log(total1);
