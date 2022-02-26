@@ -31,3 +31,12 @@ const total = doMath(3, 2);
 console.log(total);
 const total1 = doMath(31, 22);
 console.log(total1);
+// arrow fn use in add event listener : just know it how to use it:::
+document.getElementById('tumi-valo').addEventListener(event => {
+    // multyline operations
+    const sum = x+y;
+    const diff = x-y;
+    const result = sum * diff;
+    const out = result * 5;
+    return out;
+})
