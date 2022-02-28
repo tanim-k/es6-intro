@@ -11,6 +11,8 @@ console.log('maxdot:', maxArraydots)
 
 // make a new array 
 const numbers = [...array];
+const numbersNew = [32,54, ...array, 54];
 array.push(55);
-console.log(numbers)
+console.log('three.:',numbers)
+console.log('new:',numbersNew)
 console.log(array)
